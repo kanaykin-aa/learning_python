@@ -61,6 +61,11 @@ D[2]='b'
 print(D)
 D[(1,2,3)]='c'
 print(D)
+"""Упражнение 6"""
+Z={1:'a', 2:'b', 3:'c'}
+#print(Z['d']) #keyerror
+Z['d']='spam'
+print(Z)
 
 
 
