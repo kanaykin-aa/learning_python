@@ -100,4 +100,11 @@ S='spam'
 L=S[0:1]+'l'+S[2:4] #--> slam
 print(L)
 """Упражнение 10"""
-
+bd={'name':[], 'age':[], 'mail':[], 'phone':[]}
+while True:
+    bd['name'].append(input(f'Введите имя'))
+    bd['age'].append(input(f'Введите возраст'))
+    bd['mail'].append(input(f'Введите почту'))
+    bd['phone'].append(input(f'Введите телефон'))
+    break
+print(bd)
