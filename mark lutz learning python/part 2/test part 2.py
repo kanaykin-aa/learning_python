@@ -29,6 +29,13 @@ print(list(D.keys()))
 print(list(D.values()))
 print((1,2,3) in D)
 print([[]],['',(),[], {}, None])
+"""Упражнение 2"""
+L=[1,2,3,4]
+print(L[3:1])
+L[3:1]=['?']
+print(L)
+print(L[4])
+
 
 
 
