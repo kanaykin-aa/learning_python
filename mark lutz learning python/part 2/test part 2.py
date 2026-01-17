@@ -100,7 +100,7 @@ S='spam'
 L=S[0:1]+'l'+S[2:4] #--> slam
 print(L)
 """Упражнение 10"""
-bd={'name':[], 'age':[], 'mail':[], 'phone':[]}
+"""bd={'name':[], 'age':[], 'mail':[], 'phone':[]}
 while True:
     bd['name'].append(input(f'Введите имя'))
     bd['age'].append(input(f'Введите возраст'))
@@ -111,4 +111,11 @@ print(bd)
 print(bd['name'])
 print(bd['age'])
 print(bd['mail'])
-print(bd['phone'])
+print(bd['phone'])"""
+"""Упражнение 11"""
+f=open('myfile.txt', 'w')
+f.write('Hello File World!')
+f.close()
+f=open('myfile.txt', 'r')
+print(f.read())
+
