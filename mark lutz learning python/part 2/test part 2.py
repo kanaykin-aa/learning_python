@@ -66,6 +66,25 @@ Z={1:'a', 2:'b', 3:'c'}
 #print(Z['d']) #keyerror
 Z['d']='spam'
 print(Z)
-
-
-
+"""Упражнение 7"""
+#x=('a','b','c')+['d','e','f']
+#x='aaa'+['a','b','c']
+#print(x) #ошибка can only concatenate str (not "list") to str
+#q={1:'a', 2:'b', 3:'c'}+['a','b']
+#q={1:'a', 2:'b', 3:'c'}+('d','e','f')
+#q={1:'a', 2:'b', 3:'c'}+'avc'
+#print(q) #ошибка
+#r='abc'
+#r.append('x') #'str' object has no attribute 'append'
+#print(r)
+r=['a','b','c']
+r.append('d')
+print(r)
+#c=r.keys() #ошибка
+#print(c)
+c=['a','b','c']+['d','e']
+c[2:3]
+print(type(c))
+c='abc'+'be'
+c[2:3]
+print(type(c))
