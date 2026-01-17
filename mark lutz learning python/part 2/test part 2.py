@@ -88,3 +88,10 @@ print(type(c))
 c='abc'+'be'
 c[2:3]
 print(type(c))
+"""Упражнение 8"""
+S='spam'
+print(S[0][0][0][0][0])
+S=['s', 'p', 'a', 'm']
+print(S[0][0][0][0][0])
+S=['spam']
+print(S[0][0][0][0][0])
