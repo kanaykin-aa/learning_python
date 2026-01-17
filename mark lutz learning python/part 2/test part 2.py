@@ -108,3 +108,7 @@ while True:
     bd['phone'].append(input(f'Введите телефон'))
     break
 print(bd)
+print(bd['name'])
+print(bd['age'])
+print(bd['mail'])
+print(bd['phone'])
