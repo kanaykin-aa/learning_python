@@ -7,3 +7,5 @@ class Solution:
                 return [hash_map[dif], i]
             else:
                 hash_map[n]=i
+s = Solution()
+print(s.twoSum([2,7,11,15],9))
